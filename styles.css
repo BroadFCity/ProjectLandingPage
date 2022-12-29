@@ -1,0 +1,56 @@
+* {
+    border: 2px solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerlinks {
+}
+
+.header,
+.footer {
+    background-color:#1F2937;
+}
+
+.logo,
+.maintext {
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+}
+.maintext {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondarytext,
+.headerlinks {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.information,
+.quotetext {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.information {
+    font-weight: 800;
+}
+
+.quotetext {
+    font-style: italic;
+    font-weight: 200;
+    background-color: #E5E7EB;
+}
+
+button,
+.calltoaction {
+    background-color: #3882F6;
+}
